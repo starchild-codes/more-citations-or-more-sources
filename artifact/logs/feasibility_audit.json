@@ -1,0 +1,377 @@
+{
+  "n_feature_rows": 24069,
+  "n_with_vote": 12652,
+  "n_decisive": 8613,
+  "n_turn1": 18674,
+  "n_english": 13576,
+  "n_primary": 4265,
+  "n_primary_nonzero_delta_redundancy": 2057,
+  "n_exact_citation_count_match": 712,
+  "n_exact_count_match_with_breadth_difference": 173,
+  "model_comparison_components": [
+    [
+      "gemini-2.0-flash-grounding",
+      "gemini-2.5-flash-grounding",
+      "gemini-2.5-pro-grounding",
+      "gpt-4o-mini-search",
+      "gpt-4o-search",
+      "gpt-4o-search-high",
+      "gpt-4o-search-high-loc",
+      "sonar",
+      "sonar-pro",
+      "sonar-pro-high",
+      "sonar-reasoning",
+      "sonar-reasoning-pro-high"
+    ]
+  ],
+  "n_model_comparison_components": 1,
+  "primary_M4_design": {
+    "rank": 26,
+    "columns": 26,
+    "full_rank": true,
+    "condition_number": 14.528084506770412,
+    "dC_dR_correlation": 0.611943306500481
+  },
+  "overall_visible_reference_parse_median": 1.0,
+  "overall_visible_reference_parse_mean": 0.9846012074731051,
+  "numeric_marker_resolution_median": 1.0,
+  "numeric_marker_resolution_mean": 0.9837845156181658,
+  "trace_grounded_visible_url_share_median": 1.0,
+  "family_visible_reference_parse": [
+    {
+      "family": "Perplexity",
+      "count": 18086,
+      "mean": 0.9915243884966517,
+      "median": 1.0
+    },
+    {
+      "family": "OpenAI",
+      "count": 10478,
+      "mean": 0.9960198796122258,
+      "median": 1.0
+    },
+    {
+      "family": "Google",
+      "count": 7402,
+      "mean": 0.952642465986659,
+      "median": 1.0
+    },
+    {
+      "family": "Other",
+      "count": 78,
+      "mean": 0.8782051282051282,
+      "median": 1.0
+    }
+  ],
+  "citation_count_bins_by_family": [
+    {
+      "family": "Google",
+      "bin": "0",
+      "n": 3032
+    },
+    {
+      "family": "Google",
+      "bin": "1",
+      "n": 432
+    },
+    {
+      "family": "Google",
+      "bin": "2+",
+      "n": 6865
+    },
+    {
+      "family": "OpenAI",
+      "bin": "0",
+      "n": 5948
+    },
+    {
+      "family": "OpenAI",
+      "bin": "1",
+      "n": 2649
+    },
+    {
+      "family": "OpenAI",
+      "bin": "2+",
+      "n": 7798
+    },
+    {
+      "family": "Other",
+      "bin": "0",
+      "n": 853
+    },
+    {
+      "family": "Other",
+      "bin": "1",
+      "n": 31
+    },
+    {
+      "family": "Other",
+      "bin": "2+",
+      "n": 38
+    },
+    {
+      "family": "Perplexity",
+      "bin": "0",
+      "n": 2458
+    },
+    {
+      "family": "Perplexity",
+      "bin": "1",
+      "n": 659
+    },
+    {
+      "family": "Perplexity",
+      "bin": "2+",
+      "n": 17375
+    }
+  ],
+  "model_pair_summary_top20": [
+    {
+      "model_pair": "gpt-4o-search-high-loc \u00d7 sonar-reasoning-pro-high",
+      "n": 168,
+      "nonzero_delta_R": 98,
+      "exact_count_match": 16
+    },
+    {
+      "model_pair": "gpt-4o-search \u00d7 sonar-pro-high",
+      "n": 115,
+      "nonzero_delta_R": 57,
+      "exact_count_match": 13
+    },
+    {
+      "model_pair": "gpt-4o-search-high \u00d7 sonar-reasoning",
+      "n": 115,
+      "nonzero_delta_R": 62,
+      "exact_count_match": 13
+    },
+    {
+      "model_pair": "gpt-4o-search-high-loc \u00d7 sonar-pro-high",
+      "n": 107,
+      "nonzero_delta_R": 59,
+      "exact_count_match": 15
+    },
+    {
+      "model_pair": "sonar-pro-high \u00d7 sonar-reasoning-pro-high",
+      "n": 103,
+      "nonzero_delta_R": 38,
+      "exact_count_match": 34
+    },
+    {
+      "model_pair": "gpt-4o-search-high \u00d7 sonar-pro-high",
+      "n": 98,
+      "nonzero_delta_R": 40,
+      "exact_count_match": 12
+    },
+    {
+      "model_pair": "gemini-2.5-pro-grounding \u00d7 sonar-reasoning-pro-high",
+      "n": 94,
+      "nonzero_delta_R": 60,
+      "exact_count_match": 19
+    },
+    {
+      "model_pair": "sonar-pro \u00d7 sonar-reasoning",
+      "n": 92,
+      "nonzero_delta_R": 33,
+      "exact_count_match": 30
+    },
+    {
+      "model_pair": "gemini-2.5-pro-grounding \u00d7 gpt-4o-search-high-loc",
+      "n": 90,
+      "nonzero_delta_R": 54,
+      "exact_count_match": 14
+    },
+    {
+      "model_pair": "gpt-4o-mini-search \u00d7 sonar-reasoning",
+      "n": 90,
+      "nonzero_delta_R": 49,
+      "exact_count_match": 7
+    },
+    {
+      "model_pair": "gpt-4o-search-high \u00d7 sonar-reasoning-pro-high",
+      "n": 89,
+      "nonzero_delta_R": 47,
+      "exact_count_match": 9
+    },
+    {
+      "model_pair": "gpt-4o-search \u00d7 sonar-reasoning-pro-high",
+      "n": 88,
+      "nonzero_delta_R": 41,
+      "exact_count_match": 7
+    },
+    {
+      "model_pair": "gemini-2.0-flash-grounding \u00d7 sonar-reasoning-pro-high",
+      "n": 86,
+      "nonzero_delta_R": 43,
+      "exact_count_match": 8
+    },
+    {
+      "model_pair": "gemini-2.0-flash-grounding \u00d7 sonar-pro-high",
+      "n": 81,
+      "nonzero_delta_R": 38,
+      "exact_count_match": 9
+    },
+    {
+      "model_pair": "gpt-4o-search \u00d7 sonar-reasoning",
+      "n": 81,
+      "nonzero_delta_R": 41,
+      "exact_count_match": 8
+    },
+    {
+      "model_pair": "gpt-4o-search \u00d7 sonar",
+      "n": 80,
+      "nonzero_delta_R": 38,
+      "exact_count_match": 14
+    },
+    {
+      "model_pair": "sonar \u00d7 sonar-reasoning",
+      "n": 79,
+      "nonzero_delta_R": 29,
+      "exact_count_match": 20
+    },
+    {
+      "model_pair": "gemini-2.5-pro-grounding \u00d7 sonar-pro-high",
+      "n": 77,
+      "nonzero_delta_R": 44,
+      "exact_count_match": 12
+    },
+    {
+      "model_pair": "gemini-2.0-flash-grounding \u00d7 gemini-2.5-pro-grounding",
+      "n": 76,
+      "nonzero_delta_R": 40,
+      "exact_count_match": 12
+    },
+    {
+      "model_pair": "gemini-2.5-flash-grounding \u00d7 gpt-4o-search",
+      "n": 74,
+      "nonzero_delta_R": 48,
+      "exact_count_match": 5
+    }
+  ],
+  "intent_counts": [
+    {
+      "intent": "Factual Lookup",
+      "n": 1038
+    },
+    {
+      "intent": "Info Synthesis",
+      "n": 937
+    },
+    {
+      "intent": "Recommendation",
+      "n": 536
+    },
+    {
+      "intent": "Analysis",
+      "n": 477
+    },
+    {
+      "intent": "Explanation",
+      "n": 380
+    },
+    {
+      "intent": "Creative Generation",
+      "n": 337
+    },
+    {
+      "intent": "Guidance",
+      "n": 319
+    },
+    {
+      "intent": "Other",
+      "n": 157
+    },
+    {
+      "intent": "Text Processing",
+      "n": 84
+    }
+  ],
+  "distribution_citation_unique_urls_a": {
+    "0.0": 0.0,
+    "0.25": 2.0,
+    "0.5": 4.0,
+    "0.75": 6.0,
+    "0.95": 11.0,
+    "1.0": 30.0
+  },
+  "distribution_citation_unique_urls_b": {
+    "0.0": 0.0,
+    "0.25": 2.0,
+    "0.5": 4.0,
+    "0.75": 7.0,
+    "0.95": 11.0,
+    "1.0": 42.0
+  },
+  "distribution_unique_domains_a": {
+    "0.0": 0.0,
+    "0.25": 1.0,
+    "0.5": 3.0,
+    "0.75": 5.0,
+    "0.95": 9.0,
+    "1.0": 23.0
+  },
+  "distribution_unique_domains_b": {
+    "0.0": 0.0,
+    "0.25": 1.0,
+    "0.5": 3.0,
+    "0.75": 6.0,
+    "0.95": 9.0,
+    "1.0": 30.0
+  },
+  "distribution_domain_redundancy_a": {
+    "0.0": 0.0,
+    "0.25": 0.0,
+    "0.5": 0.0,
+    "0.75": 1.0,
+    "0.95": 3.0,
+    "1.0": 15.0
+  },
+  "distribution_domain_redundancy_b": {
+    "0.0": 0.0,
+    "0.25": 0.0,
+    "0.5": 0.0,
+    "0.75": 1.0,
+    "0.95": 3.0,
+    "1.0": 22.0
+  },
+  "redundancy_variation_family_pairs": [
+    {
+      "family_pair": "OpenAI \u00d7 Perplexity",
+      "n": 828,
+      "share": 0.4025279533300924
+    },
+    {
+      "family_pair": "Google \u00d7 Perplexity",
+      "n": 450,
+      "share": 0.2187651920272241
+    },
+    {
+      "family_pair": "Google \u00d7 OpenAI",
+      "n": 336,
+      "share": 0.16334467671366068
+    },
+    {
+      "family_pair": "Perplexity \u00d7 Perplexity",
+      "n": 261,
+      "share": 0.12688381137579
+    },
+    {
+      "family_pair": "Google \u00d7 Google",
+      "n": 93,
+      "share": 0.04521147301895965
+    },
+    {
+      "family_pair": "OpenAI \u00d7 OpenAI",
+      "n": 89,
+      "share": 0.04326689353427322
+    }
+  ],
+  "max_family_pair_share_of_nonzero_delta_R": 0.4025279533300924,
+  "n_major_model_pairs_with_variation": 5,
+  "major_model_pair_min_nonzero_delta_R_required": 20,
+  "min_major_family_mean_resolution": 0.952642465986659,
+  "green_collinearity_check_pass": true,
+  "green_condition_number_check_pass": true,
+  "status": "GREEN",
+  "analysis_plan_sha256": "4c818f8f6702331360e3e1b7b23585fb69fe719780e2efbbd46ccb54d502c843",
+  "features_sha256": "30674ff535afc2249734ef3b87d1f9e10e631163d5f7104ed6316c50e86dec1d"
+}

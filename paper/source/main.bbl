@@ -1,0 +1,224 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{14}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Allaham and Diakopoulos(2026)]%
+        {allaham2026syntheticsources}
+\bibfield{author}{\bibinfo{person}{Mowafak Allaham} {and}
+  \bibinfo{person}{Nicholas Diakopoulos}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Synthetic Sources?: Auditing Generative Search Engine
+  Citations for Evidence of {AI}-Generated Sources}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2605.23684}{doi:\nolinkurl{10.48550/arXiv.2605.23684}}
+\showeprint[arxiv]{2605.23684}~[cs.IR]
+
+
+\bibitem[Bink et~al\mbox{.}(2026)]%
+        {bink2026canyoutellme}
+\bibfield{author}{\bibinfo{person}{Markus Bink}, \bibinfo{person}{Marten
+  Risius}, \bibinfo{person}{David Elsweiler}, {and} \bibinfo{person}{Udo
+  Kruschwitz}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{``Can You Tell Me?'': Designing Copilots to
+  Support Human Judgement in Online Information Seeking}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2026 Conference on Human
+  Information Interaction and Retrieval}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{172--182}.
+\newblock
+\href{https://doi.org/10.1145/3786304.3787866}{doi:\nolinkurl{10.1145/3786304.3787866}}
+
+
+\bibitem[Cheng(2026)]%
+        {cheng2026citationgovernance}
+\bibfield{author}{\bibinfo{person}{Chiang-Yu Cheng}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Citation Governance in Generative E-Commerce Discovery: When Breadth Looks Diverse but Intensity Concentrates}.
+\newblock \bibinfo{journal}{\emph{Electronic Markets}} \bibinfo{volume}{36}, \bibinfo{number}{1} (\bibinfo{year}{2026}), \bibinfo{pages}{1--29}.
+\newblock
+\href{https://doi.org/10.1007/s12525-026-00920-0}{doi:\nolinkurl{10.1007/s12525-026-00920-0}}
+
+
+\bibitem[He and Liu(2026)]%
+        {he2026transparency}
+\bibfield{author}{\bibinfo{person}{Jiangen He} {and} \bibinfo{person}{Jiqun
+  Liu}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Not All Transparency Is Equal: Source Presentation
+  Effects on Attention, Interaction, and Persuasion in Conversational Search}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 2026 Conference on Human
+  Information Interaction and Retrieval}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{529--533}.
+\newblock
+\href{https://doi.org/10.1145/3786304.3787874}{doi:\nolinkurl{10.1145/3786304.3787874}}
+
+
+\bibitem[Hou et~al\mbox{.}(2026)]%
+        {hou2026citations}
+\bibfield{author}{\bibinfo{person}{Yu Hou}, \bibinfo{person}{Hal~Daum{\'e}
+  III}, \bibinfo{person}{Rachel Rudinger}, {and} \bibinfo{person}{William
+  Walden}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{On the Role of Citations in Preference Data}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2608.21376}{doi:\nolinkurl{10.48550/arXiv.2608.21376}}
+\showeprint[arxiv]{2608.21376}~[cs.CL]
+
+
+\bibitem[Huang et~al\mbox{.}(2026)]%
+        {huang2026answerbubbles}
+\bibfield{author}{\bibinfo{person}{Michelle Huang}, \bibinfo{person}{Agam
+  Goyal}, \bibinfo{person}{Koustuv Saha}, {and} \bibinfo{person}{Eshwar
+  Chandrasekharan}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Answer Bubbles: Information Exposure in {AI}-Mediated
+  Search}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2603.16138}{doi:\nolinkurl{10.48550/arXiv.2603.16138}}
+\showeprint[arxiv]{2603.16138}~[cs.IR]
+
+
+\bibitem[Kirsten et~al\mbox{.}(2026)]%
+        {kirsten2026characterizing}
+\bibfield{author}{\bibinfo{person}{Elisabeth Kirsten},
+  \bibinfo{person}{Jost~Gro{\ss}e Perdekamp}, \bibinfo{person}{Qinyuan Wu},
+  \bibinfo{person}{Mihir Upadhyay}, \bibinfo{person}{Krishna~P. Gummadi}, {and}
+  \bibinfo{person}{Muhammad~Bilal Zafar}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Characterizing Web Search in the Age of Generative
+  {AI}}. In \bibinfo{booktitle}{\emph{Findings of the Association for
+  Computational Linguistics: {ACL} 2026}}. \bibinfo{publisher}{Association for
+  Computational Linguistics}, \bibinfo{pages}{10827--10848}.
+\newblock
+\href{https://doi.org/10.18653/v1/2026.findings-acl.526}{doi:\nolinkurl{10.18653/v1/2026.findings-acl.526}}
+
+
+\bibitem[Maxwell et~al\mbox{.}(2019)]%
+        {maxwell2019diversification}
+\bibfield{author}{\bibinfo{person}{David Maxwell}, \bibinfo{person}{Leif
+  Azzopardi}, {and} \bibinfo{person}{Yashar Moshfeghi}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Impact of Result Diversification on Search
+  Behaviour and Performance}.
+\newblock \bibinfo{journal}{\emph{Information Retrieval Journal}}
+  \bibinfo{volume}{22}, \bibinfo{number}{5} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{422--446}.
+\newblock
+\href{https://doi.org/10.1007/s10791-019-09353-0}{doi:\nolinkurl{10.1007/s10791-019-09353-0}}
+
+
+\bibitem[Mayerhofer et~al\mbox{.}(2025)]%
+        {mayerhofer2025blending}
+\bibfield{author}{\bibinfo{person}{Kerstin Mayerhofer}, \bibinfo{person}{Rob
+  Capra}, {and} \bibinfo{person}{David Elsweiler}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Blending Queries and Conversations: Understanding
+  Trust, Verification, and System Choice in Search and Chat Interactions}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2025 ACM SIGIR Conference on
+  Human Information Interaction and Retrieval}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{168--178}.
+\newblock
+\href{https://doi.org/10.1145/3698204.3716454}{doi:\nolinkurl{10.1145/3698204.3716454}}
+
+
+\bibitem[Miroyan et~al\mbox{.}(2026)]%
+        {miroyan2026searcharena}
+\bibfield{author}{\bibinfo{person}{Mihran Miroyan}, \bibinfo{person}{Tsung-Han
+  Wu}, \bibinfo{person}{Logan King}, \bibinfo{person}{Tianle Li},
+  \bibinfo{person}{Jiayi Pan}, \bibinfo{person}{Xinyan Hu},
+  \bibinfo{person}{Wei-Lin Chiang}, \bibinfo{person}{Anastasios~N.
+  Angelopoulos}, \bibinfo{person}{Trevor Darrell}, \bibinfo{person}{Narges
+  Norouzi}, {and} \bibinfo{person}{Joseph~E. Gonzalez}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Search Arena: Analyzing Search-Augmented {LLM}s}.
+  In \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations ({ICLR})}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=MMGRlDnhtI}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Nikolov et~al\mbox{.}(2019)]%
+        {nikolov2019exposure}
+\bibfield{author}{\bibinfo{person}{Dimitar Nikolov}, \bibinfo{person}{Mounia
+  Lalmas}, \bibinfo{person}{Alessandro Flammini}, {and}
+  \bibinfo{person}{Filippo Menczer}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Quantifying Biases in Online Information Exposure}.
+\newblock \bibinfo{journal}{\emph{Journal of the Association for Information
+  Science and Technology}} \bibinfo{volume}{70}, \bibinfo{number}{3}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{218--229}.
+\newblock
+\href{https://doi.org/10.1002/asi.24121}{doi:\nolinkurl{10.1002/asi.24121}}
+
+
+\bibitem[Scozzi et~al\mbox{.}(2026)]%
+        {scozzi2026infallible}
+\bibfield{author}{\bibinfo{person}{Monica~Visani Scozzi},
+  \bibinfo{person}{Stephann Makri}, {and} \bibinfo{person}{Pranava
+  Madhyastha}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{``Although Powerful, it's not Infallible'':
+  Investigating Academic Researchers' Verification Challenges with {LLM}s}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2026 Conference on Human
+  Information Interaction and Retrieval}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{73--83}.
+\newblock
+\href{https://doi.org/10.1145/3786304.3787865}{doi:\nolinkurl{10.1145/3786304.3787865}}
+
+
+\bibitem[Strauss et~al\mbox{.}(2026)]%
+        {strauss2026attribution}
+\bibfield{author}{\bibinfo{person}{Ilan Strauss}, \bibinfo{person}{Jangho
+  Yang}, \bibinfo{person}{Tim O'Reilly}, \bibinfo{person}{Sruly Rosenblat},
+  {and} \bibinfo{person}{Isobel Moure}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{The Attribution Crisis in {LLM} Search Results:
+  Estimating Ecosystem Exploitation}.
+\newblock \bibinfo{journal}{\emph{Data \& Policy}}  \bibinfo{volume}{8}
+  (\bibinfo{year}{2026}), \bibinfo{pages}{e15}.
+\newblock
+\href{https://doi.org/10.1017/dap.2026.10064}{doi:\nolinkurl{10.1017/dap.2026.10064}}
+
+
+\bibitem[Xiao et~al\mbox{.}(2023)]%
+        {xiao2023metricleval}
+\bibfield{author}{\bibinfo{person}{Ziang Xiao}, \bibinfo{person}{Susu Zhang},
+  \bibinfo{person}{Vivian Lai}, {and} \bibinfo{person}{Q.~Vera Liao}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Evaluating Evaluation Metrics: A Framework for
+  Analyzing {NLG} Evaluation Metrics using Measurement Theory}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2023 Conference on Empirical
+  Methods in Natural Language Processing}}. \bibinfo{publisher}{Association
+  for Computational Linguistics}, \bibinfo{pages}{10967--10982}.
+\newblock
+\href{https://doi.org/10.18653/v1/2023.emnlp-main.676}{doi:\nolinkurl{10.18653/v1/2023.emnlp-main.676}}
+
+
+\end{thebibliography}

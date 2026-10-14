@@ -1,0 +1,9 @@
+# Core versions recorded in the original analysis runtime
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+statsmodels==0.15.0
+# Needed to read the included Parquet table with pandas; exact original parquet-engine version was not recorded.
+pyarrow
+# Useful for inspecting/regenerating plots if the original scripts are recovered.
+matplotlib

@@ -1,0 +1,17 @@
+Use the contents of this folder as the root of a new PRIVATE GitHub repository for the anonymous CHIIR 2027 review artifact.
+
+Before committing:
+1. Run: python scripts/verify_artifact.py
+2. Do not add author names, affiliations, personal emails, ORCID IDs, personal GitHub URLs/usernames, or identifying local paths.
+3. Search my local project folders for the five original analysis scripts listed in code/EXPECTED_CODE_HASHES.txt. Compute SHA-256 for each candidate. Copy ONLY exact hash matches into code/original/. Do not recreate substitutes and do not modify hash-matching originals.
+4. If any recovered script contains identifying comments/paths/URLs, report them to me before changing anything. Keep provenance clear.
+5. Re-run: python scripts/verify_artifact.py
+6. Commit all repository files to the PRIVATE repository.
+7. Do not make the GitHub repository public during double-anonymous review.
+8. I will create an anonymous mirror separately. Do not place the private repository URL in the paper or review materials.
+
+After committing, report:
+- whether all five original scripts were recovered and hash-verified;
+- the output of scripts/verify_artifact.py;
+- any anonymity risks found;
+- the final private-repository file tree.

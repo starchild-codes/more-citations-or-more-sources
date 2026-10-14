@@ -1,0 +1,8 @@
+# Original analysis scripts recorded at execution time
+# Copy a candidate file into this directory only if its SHA-256 matches exactly.
+
+bd6d5c5f515def0522818f44fd9f3fd5f1070964d333b01f368e4ca4d71a2569  prepare_analysis_data.py
+e16557a05f044bae7438f19682544e5783f7b41abeecc1d82574daedbf13d4e8  audit_feasibility.py
+43d90432887ce0fd7362d0f65c83f0a3718148013fadf63e14626c57d1a4af94  run_confirmatory.py
+274fc23e7e7f6c9f86e8985e52fc0b0af65111642ab410067ad60bf381a68e08  run_remaining_sensitivities.py
+4d17d154b56b03f75acd3e1675028d8b0a4c20a2b753bd1b4275b59b5f4544d1  finalize_outputs.py
